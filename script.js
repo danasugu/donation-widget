@@ -11,8 +11,7 @@ closeButton.addEventListener('click', (event) => {
   shareDialog.classList.remove('is-open');
 });
 
-// Make a donation
-// Progress bar animation on adding $50
+// Make a donation & Progress bar animation on adding $50
 var i = 0;
 function giveNow() {
   if (i == 0) {

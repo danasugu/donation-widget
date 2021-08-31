@@ -1,6 +1,4 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:ital@1&display=swap');
-</style>
 
 * {
   margin: 0;
@@ -35,7 +33,6 @@ body {
 }
 #progressBar {
   color: #ef5f3c;
-
 }
 span {
   color: #ef5f3c;
@@ -61,12 +58,12 @@ span {
 
 .arrow-down {
   margin-top: 106px;
-  margin-left:-15px;
-  width: 0; 
-  height: 0; 
+  margin-left: -15px;
+  width: 0;
+  height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  
+
   border-top: 10px solid #424242;
 }
 
@@ -74,7 +71,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-   height: 97px;
+  height: 97px;
 }
 .amount {
   padding: 10px 30px;
@@ -152,7 +149,8 @@ svg {
   height: 20px;
   margin-right: 7px;
 }
-button, .button {
+button,
+.button {
   background-color: #fff;
   display: inline-flex;
   align-items: center;
@@ -174,7 +172,8 @@ button, .button {
   cursor: pointer;
 }
 
-button:hover, .button:hover {
+button:hover,
+.button:hover {
   border: 1px solid #424242;
   /* color: #fff; */
 }
@@ -183,7 +182,7 @@ button:hover, .button:hover {
   display: none;
   width: 95%;
   max-width: 500px;
-  box-shadow: 0 8px 16px rgba(0,0,0,.15);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   z-index: -1;
   border: 1px solid #ddd;
   padding: 20px;
@@ -228,4 +227,3 @@ header {
   border-radius: 4px;
   background-color: #eee;
 }
-
