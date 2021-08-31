@@ -31,5 +31,5 @@ function giveNow() {
       }
     }
   }
-  document.getElementById('add50').innerHTML = '$111';
+  document.getElementById('add50').innerHTML = '$117';
 }
