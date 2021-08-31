@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:ital@1&display=swap');
 
+:root {
+  --gray: #acac;
+  --white: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,12 +24,12 @@ body {
 }
 .middle {
   margin-top: -10px;
-  border: 1px solid #acac;
+  border: 1px solid var(--gray);
 }
 .progress-bar {
-  background-color: #fff;
+  background-color: var(--white);
   height: 20px;
-  border-bottom: 1px solid #acac;
+  border-bottom: 1px solid var(--gray);
 }
 .progress-done {
   height: 20px;
