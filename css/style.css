@@ -35,13 +35,13 @@ body {
 .progress-done {
   height: 20px;
   width: 70%;
-  background-color: #ef5f3c;
+  background-color: var(--orange);
 }
 #progressBar {
-  color: #ef5f3c;
+  color: var(--orange);
 }
 span {
-  color: #ef5f3c;
+  color: var(--orange);
   font-weight: 700;
 }
 .days-left {
@@ -56,7 +56,7 @@ span {
   width: 100%;
   background-color: #424242;
   border-radius: 5px;
-  color: #fff;
+  color: var(--white);
   text-align: center;
   font-size: 1.5em;
   font-weight: 300;
@@ -108,7 +108,7 @@ a:link {
   flex: 1;
   border-radius: 5px;
   padding: 19px;
-  color: #fff;
+  color: var(--white);
   font-weight: 600;
   font-size: 1.4em;
   text-align: center;
